@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left bottom, black, white);
+    color: black;
+    min-height: 100vh;
+    font-family: monospace;
+    margin: 0;
+}
+
+/**  Temps Card   */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.01rem solid white;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    width: 85%;
+    max-width: 450px;
+    min-width: 350px;
+    padding: 20px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.3);
+}
+
+/*s  Card Title  */
+.heading {
+    font-size: 32px;
+}
+
+/*s  Individual Temp Containers (Cel, Fah, Kel)  */
+.temp-container {
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px;
+}
+
+/*s  Temp Inputs  */
+.input {
+    border-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0.5rem;
+    background: rgba(254, 253, 253, 0.656);
+    color: red;
+    font-size: 18px;
+    font-family: monospace;
+    width: 220px;
+    padding: 5px;
+    float: right;
+    outline: none;
+}
+
+.input::placeholder {
+    color: darkgray;
+}
